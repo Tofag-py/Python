@@ -2,7 +2,7 @@ import time as q
 
 # Enter Name in x variable
 
-x = "Gaurav"
+x = "Tofag"
 
 b = len(x)
 
