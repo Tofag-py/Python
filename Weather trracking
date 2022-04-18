@@ -1,0 +1,13 @@
+import requests
+from pprint import pprint
+
+API_Key = "e94f7de594a2fb7ab79cec9dd8874294"
+
+city = input("Enter City: ")
+url = "https://api.openweathermap.org/data/2.5/weather?appid="
+link = "&q="
+base_url = url + API_Key + link + city
+weather_data = requests.get(base_url).json()
+
+pprint(weather_data)
+
