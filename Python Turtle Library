@@ -1,0 +1,107 @@
+import turtle
+
+ws = turtle.Screen()
+myTurtle = turtle.Turtle()
+def draw_octagon():
+    for i in range (8):
+        myTurtle.backward(100)
+        myTurtle.right(45)
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("yellow")
+myTurtle.begin_fill()
+draw_octagon()
+myTurtle.end_fill()
+
+myTurtle.left(45)
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("yellow")
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+myTurtle.end_fill()
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("red")
+myTurtle.begin_fill()
+draw_octagon()
+myTurtle.end_fill()
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("red")
+myTurtle.left(45)
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+myTurtle.end_fill()
+    
+myTurtle.pencolor("black")
+myTurtle.fillcolor("green")
+myTurtle.begin_fill()
+draw_octagon()
+myTurtle.end_fill()
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("green")
+myTurtle.begin_fill()
+myTurtle.left(45)
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+myTurtle.end_fill()
+
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("red")
+myTurtle.begin_fill()
+draw_octagon()
+myTurtle.end_fill()
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("red")
+myTurtle.left(45)
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+myTurtle.end_fill()
+
+myTurtle.pencolor("black")
+myTurtle.fillcolor("yellow")
+myTurtle.begin_fill()
+draw_octagon()
+myTurtle.end_fill()
+
+myTurtle.pencolor("black")
+#myTurtle.fillcolor("yellow")
+myTurtle.left(45)
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+myTurtle.end_fill()
+
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+
+myTurtle.pencolor("black")
+
+draw_octagon()
+
+myTurtle.pencolor("black")
+myTurtle.left(45)
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+    
+myTurtle.pencolor("black")
+
+draw_octagon()
+
+myTurtle.pencolor("black")
+myTurtle.left(45)
+for i in range (8): 
+    myTurtle.forward(100)
+    myTurtle.right(45)
+
+turtle.exitonclick()
